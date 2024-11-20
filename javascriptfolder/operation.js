@@ -42,4 +42,11 @@ console.log(typeof String);//fun
 console.log(typeof Symbol);//fun
 console.log(typeof Object);//fun
 console.log(typeof Array);//fun
+//heap(non primitive)
+//stack (primitive)
 
+let myname="reva"
+let my=myname
+console.log(my);
+//heap main reference value hi dono ko jati hai original value ko hi update karta hai yeh
+//stack main uska copy hi milta 
